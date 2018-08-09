@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2716435E30738DE69B77E19D /* Pods_Limbic_Demo_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA35E109B5326807C353E0F0 /* Pods_Limbic_Demo_Project.framework */; };
+		6CFDBFA754590E58EE159E50 /* Pods_Limbic_Demo_ProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92990DD3594F3DD781FB2C2 /* Pods_Limbic_Demo_ProjectUITests.framework */; };
+		A8637C5C125D5A26AD23B00C /* Pods_Limbic_Demo_ProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08368CF2BEEAC14E8E6F02E6 /* Pods_Limbic_Demo_ProjectTests.framework */; };
+		E04FDAC220FF583700CBE7DA /* BDVCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04FDAC120FF583700CBE7DA /* BDVCollectionViewCell.swift */; };
+		E075E7B220EF7C6A0003104C /* CornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E075E7B120EF7C6A0003104C /* CornerView.swift */; };
+		E075E7B620EF92760003104C /* averta-regular-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E075E7B320EF92750003104C /* averta-regular-webfont.ttf */; };
+		E075E7B720EF92760003104C /* averta-bold-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E075E7B420EF92750003104C /* averta-bold-webfont.ttf */; };
+		E075E7B820EF92760003104C /* averta-semibold-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E075E7B520EF92760003104C /* averta-semibold-webfont.ttf */; };
+		E0E73C0D20D98CFE00E0ADBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E73C0C20D98CFE00E0ADBD /* AppDelegate.swift */; };
+		E0E73C0F20D98CFE00E0ADBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E73C0E20D98CFE00E0ADBD /* ViewController.swift */; };
+		E0E73C1420D98CFF00E0ADBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0E73C1320D98CFF00E0ADBD /* Assets.xcassets */; };
+		E0E73C1720D98CFF00E0ADBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E73C1520D98CFF00E0ADBD /* LaunchScreen.storyboard */; };
+		E0E73C2220D98CFF00E0ADBD /* Limbic_Demo_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E73C2120D98CFF00E0ADBD /* Limbic_Demo_ProjectTests.swift */; };
+		E0E73C2D20D98D0000E0ADBD /* Limbic_Demo_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E73C2C20D98D0000E0ADBD /* Limbic_Demo_ProjectUITests.swift */; };
+		E0E73C3D20D98D2A00E0ADBD /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E73C3C20D98D2A00E0ADBD /* HealthKit.framework */; };
+		E0E73C3F20D98D4A00E0ADBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E73C3E20D98D4900E0ADBD /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0E73C1E20D98CFF00E0ADBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0E73C0120D98CFE00E0ADBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0E73C0820D98CFE00E0ADBD;
+			remoteInfo = "Limbic-Demo-Project";
+		};
+		E0E73C2920D98D0000E0ADBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0E73C0120D98CFE00E0ADBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0E73C0820D98CFE00E0ADBD;
+			remoteInfo = "Limbic-Demo-Project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E05F484120F78B0E00D78669 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08368CF2BEEAC14E8E6F02E6 /* Pods_Limbic_Demo_ProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Limbic_Demo_ProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22420CBAA8376B239B2D98ED /* Pods-Limbic-Demo-ProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Limbic-Demo-ProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Limbic-Demo-ProjectTests/Pods-Limbic-Demo-ProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		27C44709545A0EBFB419C100 /* Pods-Limbic-Demo-Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Limbic-Demo-Project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Limbic-Demo-Project/Pods-Limbic-Demo-Project.debug.xcconfig"; sourceTree = "<group>"; };
+		A23B02AD8F0F6AF9145C4875 /* Pods-Limbic-Demo-ProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Limbic-Demo-ProjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Limbic-Demo-ProjectUITests/Pods-Limbic-Demo-ProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A89CB16CBA9C869CCEAF751C /* Pods-Limbic-Demo-ProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Limbic-Demo-ProjectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Limbic-Demo-ProjectUITests/Pods-Limbic-Demo-ProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BF73FB3646A7562B93912CBA /* Pods-Limbic-Demo-ProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Limbic-Demo-ProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Limbic-Demo-ProjectTests/Pods-Limbic-Demo-ProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		D3514D5F3A5C2294D0900506 /* Pods-Limbic-Demo-Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Limbic-Demo-Project.release.xcconfig"; path = "Pods/Target Support Files/Pods-Limbic-Demo-Project/Pods-Limbic-Demo-Project.release.xcconfig"; sourceTree = "<group>"; };
+		D92990DD3594F3DD781FB2C2 /* Pods_Limbic_Demo_ProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Limbic_Demo_ProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E04FDAC120FF583700CBE7DA /* BDVCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDVCollectionViewCell.swift; sourceTree = "<group>"; };
+		E075E7B120EF7C6A0003104C /* CornerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerView.swift; sourceTree = "<group>"; };
+		E075E7B320EF92750003104C /* averta-regular-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "averta-regular-webfont.ttf"; sourceTree = "<group>"; };
+		E075E7B420EF92750003104C /* averta-bold-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "averta-bold-webfont.ttf"; sourceTree = "<group>"; };
+		E075E7B520EF92760003104C /* averta-semibold-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "averta-semibold-webfont.ttf"; sourceTree = "<group>"; };
+		E0E73C0920D98CFE00E0ADBD /* Limbic-Demo-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Limbic-Demo-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E73C0C20D98CFE00E0ADBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E0E73C0E20D98CFE00E0ADBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E0E73C1320D98CFF00E0ADBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0E73C1620D98CFF00E0ADBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E0E73C1820D98CFF00E0ADBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0E73C1D20D98CFF00E0ADBD /* Limbic-Demo-ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Limbic-Demo-ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E73C2120D98CFF00E0ADBD /* Limbic_Demo_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Limbic_Demo_ProjectTests.swift; sourceTree = "<group>"; };
+		E0E73C2320D98CFF00E0ADBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0E73C2820D98D0000E0ADBD /* Limbic-Demo-ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Limbic-Demo-ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E73C2C20D98D0000E0ADBD /* Limbic_Demo_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Limbic_Demo_ProjectUITests.swift; sourceTree = "<group>"; };
+		E0E73C2E20D98D0000E0ADBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0E73C3A20D98D2A00E0ADBD /* Limbic-Demo-Project.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Limbic-Demo-Project.entitlements"; sourceTree = "<group>"; };
+		E0E73C3C20D98D2A00E0ADBD /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		E0E73C3E20D98D4900E0ADBD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EA35E109B5326807C353E0F0 /* Pods_Limbic_Demo_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Limbic_Demo_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0E73C0620D98CFE00E0ADBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E73C3D20D98D2A00E0ADBD /* HealthKit.framework in Frameworks */,
+				2716435E30738DE69B77E19D /* Pods_Limbic_Demo_Project.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E73C1A20D98CFF00E0ADBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8637C5C125D5A26AD23B00C /* Pods_Limbic_Demo_ProjectTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E73C2520D98D0000E0ADBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CFDBFA754590E58EE159E50 /* Pods_Limbic_Demo_ProjectUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB30984B55408DB9503CD73D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27C44709545A0EBFB419C100 /* Pods-Limbic-Demo-Project.debug.xcconfig */,
+				D3514D5F3A5C2294D0900506 /* Pods-Limbic-Demo-Project.release.xcconfig */,
+				22420CBAA8376B239B2D98ED /* Pods-Limbic-Demo-ProjectTests.debug.xcconfig */,
+				BF73FB3646A7562B93912CBA /* Pods-Limbic-Demo-ProjectTests.release.xcconfig */,
+				A23B02AD8F0F6AF9145C4875 /* Pods-Limbic-Demo-ProjectUITests.debug.xcconfig */,
+				A89CB16CBA9C869CCEAF751C /* Pods-Limbic-Demo-ProjectUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E075E7B920EF92800003104C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E075E7B420EF92750003104C /* averta-bold-webfont.ttf */,
+				E075E7B320EF92750003104C /* averta-regular-webfont.ttf */,
+				E075E7B520EF92760003104C /* averta-semibold-webfont.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E0E73C0020D98CFE00E0ADBD = {
+			isa = PBXGroup;
+			children = (
+				E0E73C0B20D98CFE00E0ADBD /* Limbic-Demo-Project */,
+				E0E73C2020D98CFF00E0ADBD /* Limbic-Demo-ProjectTests */,
+				E0E73C2B20D98D0000E0ADBD /* Limbic-Demo-ProjectUITests */,
+				E0E73C0A20D98CFE00E0ADBD /* Products */,
+				E0E73C3B20D98D2A00E0ADBD /* Frameworks */,
+				BB30984B55408DB9503CD73D /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		E0E73C0A20D98CFE00E0ADBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0E73C0920D98CFE00E0ADBD /* Limbic-Demo-Project.app */,
+				E0E73C1D20D98CFF00E0ADBD /* Limbic-Demo-ProjectTests.xctest */,
+				E0E73C2820D98D0000E0ADBD /* Limbic-Demo-ProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0E73C0B20D98CFE00E0ADBD /* Limbic-Demo-Project */ = {
+			isa = PBXGroup;
+			children = (
+				E075E7B920EF92800003104C /* Fonts */,
+				E0E73C3A20D98D2A00E0ADBD /* Limbic-Demo-Project.entitlements */,
+				E0E73C0C20D98CFE00E0ADBD /* AppDelegate.swift */,
+				E0E73C0E20D98CFE00E0ADBD /* ViewController.swift */,
+				E0E73C1320D98CFF00E0ADBD /* Assets.xcassets */,
+				E0E73C3E20D98D4900E0ADBD /* Main.storyboard */,
+				E04FDAC120FF583700CBE7DA /* BDVCollectionViewCell.swift */,
+				E075E7B120EF7C6A0003104C /* CornerView.swift */,
+				E0E73C1520D98CFF00E0ADBD /* LaunchScreen.storyboard */,
+				E0E73C1820D98CFF00E0ADBD /* Info.plist */,
+			);
+			path = "Limbic-Demo-Project";
+			sourceTree = "<group>";
+		};
+		E0E73C2020D98CFF00E0ADBD /* Limbic-Demo-ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0E73C2120D98CFF00E0ADBD /* Limbic_Demo_ProjectTests.swift */,
+				E0E73C2320D98CFF00E0ADBD /* Info.plist */,
+			);
+			path = "Limbic-Demo-ProjectTests";
+			sourceTree = "<group>";
+		};
+		E0E73C2B20D98D0000E0ADBD /* Limbic-Demo-ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E0E73C2C20D98D0000E0ADBD /* Limbic_Demo_ProjectUITests.swift */,
+				E0E73C2E20D98D0000E0ADBD /* Info.plist */,
+			);
+			path = "Limbic-Demo-ProjectUITests";
+			sourceTree = "<group>";
+		};
+		E0E73C3B20D98D2A00E0ADBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0E73C3C20D98D2A00E0ADBD /* HealthKit.framework */,
+				EA35E109B5326807C353E0F0 /* Pods_Limbic_Demo_Project.framework */,
+				08368CF2BEEAC14E8E6F02E6 /* Pods_Limbic_Demo_ProjectTests.framework */,
+				D92990DD3594F3DD781FB2C2 /* Pods_Limbic_Demo_ProjectUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0E73C0820D98CFE00E0ADBD /* Limbic-Demo-Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0E73C3120D98D0000E0ADBD /* Build configuration list for PBXNativeTarget "Limbic-Demo-Project" */;
+			buildPhases = (
+				5D4E68768409EF7181F457E4 /* [CP] Check Pods Manifest.lock */,
+				E0E73C0520D98CFE00E0ADBD /* Sources */,
+				E0E73C0620D98CFE00E0ADBD /* Frameworks */,
+				E0E73C0720D98CFE00E0ADBD /* Resources */,
+				8B80419D27B53DF9A49166AF /* [CP] Embed Pods Frameworks */,
+				E05F484120F78B0E00D78669 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Limbic-Demo-Project";
+			productName = "Limbic-Demo-Project";
+			productReference = E0E73C0920D98CFE00E0ADBD /* Limbic-Demo-Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0E73C1C20D98CFF00E0ADBD /* Limbic-Demo-ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0E73C3420D98D0000E0ADBD /* Build configuration list for PBXNativeTarget "Limbic-Demo-ProjectTests" */;
+			buildPhases = (
+				9E95F0ED089DCDBBB7C7806B /* [CP] Check Pods Manifest.lock */,
+				E0E73C1920D98CFF00E0ADBD /* Sources */,
+				E0E73C1A20D98CFF00E0ADBD /* Frameworks */,
+				E0E73C1B20D98CFF00E0ADBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0E73C1F20D98CFF00E0ADBD /* PBXTargetDependency */,
+			);
+			name = "Limbic-Demo-ProjectTests";
+			productName = "Limbic-Demo-ProjectTests";
+			productReference = E0E73C1D20D98CFF00E0ADBD /* Limbic-Demo-ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E0E73C2720D98D0000E0ADBD /* Limbic-Demo-ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0E73C3720D98D0000E0ADBD /* Build configuration list for PBXNativeTarget "Limbic-Demo-ProjectUITests" */;
+			buildPhases = (
+				10552CEC944DF522F5A086AB /* [CP] Check Pods Manifest.lock */,
+				E0E73C2420D98D0000E0ADBD /* Sources */,
+				E0E73C2520D98D0000E0ADBD /* Frameworks */,
+				E0E73C2620D98D0000E0ADBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0E73C2A20D98D0000E0ADBD /* PBXTargetDependency */,
+			);
+			name = "Limbic-Demo-ProjectUITests";
+			productName = "Limbic-Demo-ProjectUITests";
+			productReference = E0E73C2820D98D0000E0ADBD /* Limbic-Demo-ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0E73C0120D98CFE00E0ADBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Limbic;
+				TargetAttributes = {
+					E0E73C0820D98CFE00E0ADBD = {
+						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					E0E73C1C20D98CFF00E0ADBD = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = E0E73C0820D98CFE00E0ADBD;
+					};
+					E0E73C2720D98D0000E0ADBD = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = E0E73C0820D98CFE00E0ADBD;
+					};
+				};
+			};
+			buildConfigurationList = E0E73C0420D98CFE00E0ADBD /* Build configuration list for PBXProject "Limbic-Demo-Project" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0E73C0020D98CFE00E0ADBD;
+			productRefGroup = E0E73C0A20D98CFE00E0ADBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0E73C0820D98CFE00E0ADBD /* Limbic-Demo-Project */,
+				E0E73C1C20D98CFF00E0ADBD /* Limbic-Demo-ProjectTests */,
+				E0E73C2720D98D0000E0ADBD /* Limbic-Demo-ProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0E73C0720D98CFE00E0ADBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E075E7B720EF92760003104C /* averta-bold-webfont.ttf in Resources */,
+				E0E73C3F20D98D4A00E0ADBD /* Main.storyboard in Resources */,
+				E0E73C1720D98CFF00E0ADBD /* LaunchScreen.storyboard in Resources */,
+				E075E7B620EF92760003104C /* averta-regular-webfont.ttf in Resources */,
+				E075E7B820EF92760003104C /* averta-semibold-webfont.ttf in Resources */,
+				E0E73C1420D98CFF00E0ADBD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E73C1B20D98CFF00E0ADBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E73C2620D98D0000E0ADBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10552CEC944DF522F5A086AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Limbic-Demo-ProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D4E68768409EF7181F457E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Limbic-Demo-Project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B80419D27B53DF9A49166AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Limbic-Demo-Project/Pods-Limbic-Demo-Project-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${PODS_ROOT}/Limbic/Limbic.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Limbic.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Limbic-Demo-Project/Pods-Limbic-Demo-Project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E95F0ED089DCDBBB7C7806B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Limbic-Demo-ProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0E73C0520D98CFE00E0ADBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E73C0F20D98CFE00E0ADBD /* ViewController.swift in Sources */,
+				E04FDAC220FF583700CBE7DA /* BDVCollectionViewCell.swift in Sources */,
+				E075E7B220EF7C6A0003104C /* CornerView.swift in Sources */,
+				E0E73C0D20D98CFE00E0ADBD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E73C1920D98CFF00E0ADBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E73C2220D98CFF00E0ADBD /* Limbic_Demo_ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E73C2420D98D0000E0ADBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E73C2D20D98D0000E0ADBD /* Limbic_Demo_ProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0E73C1F20D98CFF00E0ADBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0E73C0820D98CFE00E0ADBD /* Limbic-Demo-Project */;
+			targetProxy = E0E73C1E20D98CFF00E0ADBD /* PBXContainerItemProxy */;
+		};
+		E0E73C2A20D98D0000E0ADBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0E73C0820D98CFE00E0ADBD /* Limbic-Demo-Project */;
+			targetProxy = E0E73C2920D98D0000E0ADBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E0E73C1520D98CFF00E0ADBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0E73C1620D98CFF00E0ADBD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0E73C2F20D98D0000E0ADBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E0E73C3020D98D0000E0ADBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0E73C3220D98D0000E0ADBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27C44709545A0EBFB419C100 /* Pods-Limbic-Demo-Project.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Limbic-Demo-Project/Limbic-Demo-Project.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TJF43HGSVH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Limbic-Demo-Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ai.limbic.Limbic-Demo-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E0E73C3320D98D0000E0ADBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3514D5F3A5C2294D0900506 /* Pods-Limbic-Demo-Project.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Limbic-Demo-Project/Limbic-Demo-Project.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TJF43HGSVH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Limbic-Demo-Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ai.limbic.Limbic-Demo-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E0E73C3520D98D0000E0ADBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22420CBAA8376B239B2D98ED /* Pods-Limbic-Demo-ProjectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Limbic-Demo-ProjectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ai.limbic.Limbic-Demo-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Limbic-Demo-Project.app/Limbic-Demo-Project";
+			};
+			name = Debug;
+		};
+		E0E73C3620D98D0000E0ADBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF73FB3646A7562B93912CBA /* Pods-Limbic-Demo-ProjectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Limbic-Demo-ProjectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ai.limbic.Limbic-Demo-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Limbic-Demo-Project.app/Limbic-Demo-Project";
+			};
+			name = Release;
+		};
+		E0E73C3820D98D0000E0ADBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A23B02AD8F0F6AF9145C4875 /* Pods-Limbic-Demo-ProjectUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Limbic-Demo-ProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ai.limbic.Limbic-Demo-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Limbic-Demo-Project";
+			};
+			name = Debug;
+		};
+		E0E73C3920D98D0000E0ADBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A89CB16CBA9C869CCEAF751C /* Pods-Limbic-Demo-ProjectUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Limbic-Demo-ProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ai.limbic.Limbic-Demo-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Limbic-Demo-Project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0E73C0420D98CFE00E0ADBD /* Build configuration list for PBXProject "Limbic-Demo-Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E73C2F20D98D0000E0ADBD /* Debug */,
+				E0E73C3020D98D0000E0ADBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0E73C3120D98D0000E0ADBD /* Build configuration list for PBXNativeTarget "Limbic-Demo-Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E73C3220D98D0000E0ADBD /* Debug */,
+				E0E73C3320D98D0000E0ADBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0E73C3420D98D0000E0ADBD /* Build configuration list for PBXNativeTarget "Limbic-Demo-ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E73C3520D98D0000E0ADBD /* Debug */,
+				E0E73C3620D98D0000E0ADBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0E73C3720D98D0000E0ADBD /* Build configuration list for PBXNativeTarget "Limbic-Demo-ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E73C3820D98D0000E0ADBD /* Debug */,
+				E0E73C3920D98D0000E0ADBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0E73C0120D98CFE00E0ADBD /* Project object */;
+}

@@ -1,0 +1,11 @@
+framework module Limbic {
+  umbrella header "Limbic.h"
+
+  export *
+  module * { export * }
+}
+
+module Limbic.Swift {
+    header "Limbic-Swift.h"
+    requires objc
+}
