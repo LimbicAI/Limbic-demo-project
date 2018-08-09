@@ -17,14 +17,14 @@ Replace `"YOUR_API_KEY"` With the API key that was provided to you by one of the
 
 ## How to use the demo project
 
-![alt tag](https://www.dropbox.com/s/1zi2qye5g2ckhlx/Screenshot%202018-08-09%2010.47.47.png?dl=0)
+![alt tag](https://www.dropbox.com/s/1zi2qye5g2ckhlx/Screenshot%202018-08-09%2010.47.47.png)
 
 The app is displaying Stress values per day, counting backward from today onwards.
 In the image dispalyed here, we're counting backward from Thursday (see T on the right hand side) to the Friday before (see F on the left hand side).
 
 When pressing on a datapoint, it will show the Limbic values.
 
-![alt tag](https://www.dropbox.com/s/loq1loe496c0nr8/Screenshot%202018-08-09%2010.57.14.png?dl=0)
+![alt tag](https://www.dropbox.com/s/loq1loe496c0nr8/Screenshot%202018-08-09%2010.57.14.png)
 
 ## Return values
 
