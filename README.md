@@ -18,6 +18,7 @@ Replace `"YOUR_API_KEY"` With the API key that was provided to you by one of the
 ## How to use the demo project
 
 ![](https://github.com/LimbicAI/Limbic-demo-project/blob/master/screenshot.png =250x250)
+<img src="https://github.com/LimbicAI/Limbic-demo-project/blob/master/screenshot.png" width="200" height="200" />
 
 The app is displaying Stress values per day, counting backward from today onwards.
 In the image dispalyed here, we're counting backward from Thursday (see T on the right hand side) to the Friday before (see F on the left hand side).
@@ -25,6 +26,8 @@ In the image dispalyed here, we're counting backward from Thursday (see T on the
 When pressing on a datapoint, it will show the Limbic values.
 
 ![](https://github.com/LimbicAI/Limbic-demo-project/blob/master/datapoint.png =250x250)
+<img src="https://github.com/LimbicAI/Limbic-demo-project/blob/master/datapoint.png" width="200" height="200" />
+
 
 ## Return values
 
