@@ -39,10 +39,11 @@ Screenshot below - Pressing on a data-point displays the Limbic values for that 
 };
 ```
 
-* `confidence` means the **confidence interval** in which we are 95% confident the `stressIndex` lies.
-* `confidenceLevel` can either be 1 or 2. `1` stands for *certain*, and a `2` stands for *uncertain*. This is the certainty about the stress prediction.
-* `stressIndex` is an index, as calculated from the person's own baseline on their stress level. Anything above 0 would mean *more stressed than average*, anything below *less stressed than average*.
 * `stressLevel` is the recommended way to report on a user's stress levels. The value can range from 1 to 7. Below is a breakdown of all possible values:
+* `stress Index` is an index, as calculated from the person's own baseline on their stress level. Anything above 0 would mean *more stressed than average*, anything below *less stressed than average*.
+* `confidence Level` can either be 1 or 2. `1` stands for *certain*, and a `2` stands for *uncertain*. This is the certainty about the stress prediction.
+* `confidence Index` means the **confidence interval** in which we are 95% confident the `stressIndex` lies.
+
 
 ```bash
 1 -- A very calm day
