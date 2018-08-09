@@ -2,16 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSHealthShareUsageDescription</key>
-	<string>Limbic needs access to your heart rate data in order to provide accurate stress level predictions.</string>
-	<key>UIAppFonts</key>
-	<array>
-		<string>averta-semibold-webfont.ttf</string>
-		<string>averta-regular-webfont.ttf</string>
-		<string>averta-bold-webfont.ttf</string>
-	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Limbic Demo</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -28,6 +22,14 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSHealthShareUsageDescription</key>
+	<string>Limbic needs access to your heart rate data in order to provide accurate stress level predictions.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>averta-semibold-webfont.ttf</string>
+		<string>averta-regular-webfont.ttf</string>
+		<string>averta-bold-webfont.ttf</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

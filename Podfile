@@ -4,7 +4,7 @@
 target 'Limbic-Demo-Project' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
-  pod 'Limbic', '~> 0.0.33'
+  pod 'Limbic', '~> 0.1.10'
   pod 'Charts'
   # Pods for Limbic-Demo-Project
 
