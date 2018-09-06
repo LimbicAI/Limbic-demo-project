@@ -57,7 +57,7 @@ Screenshot below - Pressing on a data-point displays the Limbic values for that 
 
 ## Troubleshooting
 
-In the meantime, there are a few things you could do to help us work out what’s happened - 1) there’s a host of possible (but rare) instances where the Apple Watch won’t record (enough) hr data. Here’s how you can make sure to exclude those.
+There will be times where the Apple Watch won't be recording enough heart rate data. If this is the case, then there's a host of possible (but rare) instances where this might be possible. We've compiled a list of steps to go through in order to solve them below:
 
 Check your settings:
 * On your iPhone, in the Watch app, go to: My Watch (tab) > Privacy - turn on Heart Rate and Fitness Tracking.
@@ -83,7 +83,3 @@ It may also help to check that the back of your Apple Watch is clean (along with
 
 If after this, we’re still getting unconfident measurements, we can take a look at your csv health data export and take a look at what’s going on.
 * Open the Health app -> tap the profile button in the top right corner -> press ‘export health data’
-
-As a hack, we are also aware the the ‘breath’ app on the Apple Watch is likely to trigger a heart-rate recording (and this might be a good way for you to start your Monday!)
-
-Hope this helps :slightly_smiling_face:
