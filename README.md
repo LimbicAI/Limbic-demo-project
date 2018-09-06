@@ -54,3 +54,36 @@ Screenshot below - Pressing on a data-point displays the Limbic values for that 
 6 -- A stressful day
 7 -- A very stressful day
 ```  
+
+## Troubleshooting
+
+In the meantime, there are a few things you could do to help us work out what’s happened - 1) there’s a host of possible (but rare) instances where the Apple Watch won’t record (enough) hr data. Here’s how you can make sure to exclude those.
+
+Check your settings:
+* On your iPhone, in the Watch app, go to: My Watch (tab) > Privacy - turn on Heart Rate and Fitness Tracking.
+* On your iPhone, go to: Settings > Privacy > Motion & Fitness - check that both Fitness Tracking and Health are enabled.
+
+Check that you’ve set up the activity app (for help see: https://help.apple.com/watch/#/apd3bf6d85a6)
+
+Please make sure your settings are set as follows:
+* On your iPhone, in the Watch app, go to: My Watch (tab) > Passcode.
+* Turn on each of Wrist Detection, Passcode and Unlock with iPhone.
+* After putting it on your wrist, your Apple Watch will then unlock after whatever you do first: either unlocking your watch manually (by entering the passcode) or unlocking your iPhone.
+* It will then remain unlocked (including when the screen is asleep) until you remove it from your wrist.
+* When you remove your Apple Watch, it will lock automatically.
+
+Close certain apps and restart both your iPhone and your Apple Watch:
+* Close the Watch app, Activity app and Health app (if open) on your iPhone:
+   * Double-click the Home button, then swipe up on each app preview to close the apps.
+* Turn both devices off together, then restart your iPhone first:
+   * Restart your iPhone (see: https://support.apple.com/en-us/HT201559)
+   * Restart your Apple Watch (see: https://support.apple.com/en-us/HT204510)
+
+It may also help to check that the back of your Apple Watch is clean (along with your wrist, which I'm sure is the case): https://support.apple.com/en-us/HT204522
+
+If after this, we’re still getting unconfident measurements, we can take a look at your csv health data export and take a look at what’s going on.
+* Open the Health app -> tap the profile button in the top right corner -> press ‘export health data’
+
+As a hack, we are also aware the the ‘breath’ app on the Apple Watch is likely to trigger a heart-rate recording (and this might be a good way for you to start your Monday!)
+
+Hope this helps :slightly_smiling_face:
